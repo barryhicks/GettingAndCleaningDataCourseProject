@@ -1,15 +1,9 @@
 
 Processed Data Contained in "UCI HAR FilteredData.txt"
 
-1. Overview
-2. Naming of Variables (Columns)
-3. Details of each Variable
-4. Derivation of the Original Data
-5. Details of Original Experiment
-
 ----------------------------------
 
-1. Overview
+Overview
 
 The data described here is based on data from the "Human Activity Recognition Using Smartphones" Dataset, Version 1.0. We have consolidated and processed the data to create
 "UCI HAR FilteredData.txt", which we describe here.
@@ -29,7 +23,7 @@ The data is further described below.
 
 ----------------------------------
 
-2. Naming of Variables (Columns)
+Naming of Variables (Columns)
 
 The first two columns are as follows:
 
@@ -77,7 +71,7 @@ dimension = x, y, z, or mag
 
 ----------------------------------
 
-3. Details of each Variable
+Details of each Variable
 
 Activity      
   activity being performed by the subject:
@@ -333,7 +327,7 @@ f-bodyjerk-gyro-meanfreq-mag
 
 ----------------------------------
 
-4. Derivation of the Original Data
+Derivation of the Original Data
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals t-acc-xYZ and t-gyro-xYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (t-body-acc-xYZ and t-gravity-acc-xYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -346,7 +340,7 @@ These signals were used to estimate variables of the feature vector for each pat
 
 ----------------------------------
 
-5. Details of Original Experiment
+Details of Original Experiment
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
